@@ -1,0 +1,31 @@
+﻿{
+    "app":  "AIPromptWorkbench",
+    "channel":  "stable",
+    "version":  "1.0.0",
+    "release_date":  "2026-07-11",
+    "mandatory":  false,
+    "notes":  "Initial stable release.",
+    "sources":  {
+                    "gitee":  {
+                                  "latest_json_url":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/raw/main/latest.json",
+                                  "release_page_url":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/releases",
+                                  "manual_upload_required":  false
+                              },
+                    "github":  {
+                                   "latest_json_url":  "https://github.com/WeepingLeaf/AIPromptWorkbench/releases/latest/download/latest.json",
+                                   "release_page_url":  "https://github.com/WeepingLeaf/AIPromptWorkbench/releases"
+                               }
+                },
+    "assets":  [
+                   {
+                       "type":  "installer",
+                       "name":  "AIPromptWorkbench_Setup_1.0.0.exe",
+                       "sha256":  "eca89f7ff2743a49e1537ce76b97807fe8d95171a06d2cf62259e3129561517e",
+                       "size":  19553531,
+                       "urls":  {
+                                    "gitee":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/releases/download/v1.0.0/AIPromptWorkbench_Setup_1.0.0.exe",
+                                    "github":  "https://github.com/WeepingLeaf/AIPromptWorkbench/releases/latest/download/AIPromptWorkbench_Setup_1.0.0.exe"
+                                }
+                   }
+               ]
+}
