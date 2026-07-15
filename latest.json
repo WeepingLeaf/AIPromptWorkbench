@@ -20,8 +20,8 @@
                    {
                        "type":  "installer",
                        "name":  "AIPromptWorkbench_Setup_1.1.0.exe",
-                       "sha256":  "23cefa103f6828e43a819fcc29f3e8d92deddc6a41d9edde92f548d8e4de87c8",
-                       "size":  19587246,
+                       "sha256":  "96296f6f5041504088173b89bdfea2b815f32c819d7bbd308812ca7f4f617dfc",
+                       "size":  19588181,
                        "urls":  {
                                     "gitee":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/releases/download/v1.1.0/AIPromptWorkbench_Setup_1.1.0.exe",
                                     "github":  "https://github.com/WeepingLeaf/AIPromptWorkbench/releases/latest/download/AIPromptWorkbench_Setup_1.1.0.exe"
