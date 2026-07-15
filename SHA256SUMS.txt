@@ -1,1 +1,1 @@
-﻿f6f880aff892b2264c9d4987c33f771e791d7913070612a3bbadcdb47cb07d9b  AIPromptWorkbench_Setup_1.0.1.exe
+﻿23cefa103f6828e43a819fcc29f3e8d92deddc6a41d9edde92f548d8e4de87c8  AIPromptWorkbench_Setup_1.1.0.exe
