@@ -1,10 +1,10 @@
 ﻿{
     "app":  "AIPromptWorkbench",
     "channel":  "stable",
-    "version":  "1.1.0",
-    "release_date":  "2026-07-16",
+    "version":  "1.1.1",
+    "release_date":  "2026-07-17",
     "mandatory":  false,
-    "notes":  "## AIPromptWorkbench v1.1.0\n\n本版本主要优化悬浮窗提示词快捷面板的使用体验，并修复部分主题显示与窗口交互问题。\n\n### 主要更新\n\n- 新增并完善悬浮窗提示词快捷面板，便于在其他软件中快速搜索和复制提示词。\n- 支持悬浮窗展开 / 收起状态下的边缘贴靠，降低屏幕占用。\n- 优化浅色主题下复选框边缘、文本选中颜色等可读性问题。\n\n### 下载\n\n请下载本页附件中的安装器：\n\n`AIPromptWorkbench_Setup_1.0.1.exe`\n\n### 校验\n\n如需校验安装包完整性，可使用本页提供的 `SHA256SUMS.txt`。",
+    "notes":  "# AIPromptWorkbench v1.1.1\n\n本版本主要优化视频模板变量输入、平台专属内容处理、悬浮窗状态恢复和 Windows 窗口交互，并新增应用内自动更新与系统托盘支持。\n\n## 主要更新\n\n- 新增可视化变量输入模式，可根据当前引用词条和目标平台展示并设置实际生效的变量。\n- 词条正文变量统一使用 `{变量名}`，同时保留原有词条引用变量输入格式和变量定义格式。\n- 平台专属内容改为追加在基础词条内容末尾，并正常参与变量解析、内容预览和最终导出。\n- 更新公告支持 Markdown，用户确认后可自动下载安装器、完成 SHA256 校验、启动安装并重新打开软件。\n- 优化悬浮窗状态恢复，并新增“重置悬浮窗位置”功能。\n- 新增关闭窗口行为设置和系统托盘支持；托盘图标可快速打开主窗口或退出程序。\n- 优化窗口部分位于屏幕外时的下拉菜单定位，避免首次展开时发生横向跳动。\n- 移除未实际生效的界面缩放选项，界面继续跟随系统显示缩放。\n\n## 下载\n\n已安装旧版本的用户可以通过软件内更新功能下载安装。\n\n也可以下载本页附件中的安装器：\n\n`AIPromptWorkbench_Setup_1.1.1.exe`\n\n仓库中的完整安装器仍然保留，支持手动下载安装。\n\n## 校验\n\n如需校验安装包完整性，可使用本页提供的 `SHA256SUMS.txt`。",
     "sources":  {
                     "gitee":  {
                                   "latest_json_url":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/raw/main/latest.json",
@@ -19,12 +19,12 @@
     "assets":  [
                    {
                        "type":  "installer",
-                       "name":  "AIPromptWorkbench_Setup_1.1.0.exe",
-                       "sha256":  "e0546dc6f3da5cdbdfb82ad5baf451eb38f13a95b725bb8ad03bee3e850fa148",
-                       "size":  19588183,
+                       "name":  "AIPromptWorkbench_Setup_1.1.1.exe",
+                       "sha256":  "aa87fed05720fdcf2fc000f06fbf358fabb4291728ff6e817fbf1d0cbddb426f",
+                       "size":  19684867,
                        "urls":  {
-                                    "gitee":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/releases/download/v1.1.0/AIPromptWorkbench_Setup_1.1.0.exe",
-                                    "github":  "https://github.com/WeepingLeaf/AIPromptWorkbench/releases/latest/download/AIPromptWorkbench_Setup_1.1.0.exe"
+                                    "gitee":  "https://gitee.com/WeepingLeaf/AIPromptWorkbench/releases/download/v1.1.1/AIPromptWorkbench_Setup_1.1.1.exe",
+                                    "github":  "https://github.com/WeepingLeaf/AIPromptWorkbench/releases/latest/download/AIPromptWorkbench_Setup_1.1.1.exe"
                                 }
                    }
                ]
